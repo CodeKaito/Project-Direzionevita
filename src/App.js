@@ -1,11 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import { About, Homepage }  from './pages/index.js';
 
 function App() {
   return (
-    <h1 className="text-3xl font-bold underline text-red-600">
-      Hello world!
-    </h1>
+    <div>
+      <Homepage />
+      <About />
+    </div>
   );
 }
 
